@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "AppLair",
-    "currentPage": "page7.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -11,7 +11,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.7",
     "siteFonts": [],
-    "uniqCompNum": 54,
+    "uniqCompNum": 55,
     "versionPublish": "4.9.7",
     "screenshot": "screenshot.png"
   },
@@ -279,7 +279,7 @@
             "showBio": true,
             "count": 3,
             "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
@@ -328,6 +328,65 @@
               "authorName": "Jason P.",
               "authorBio": "AppLair User",
               "text": "<em>\"Fuck yea!\"</em>"
+            }
+          ]
+        },
+        {
+          "_params": {
+            "showTitle": false,
+            "showName": true,
+            "showBio": true,
+            "count": 3,
+            "paddingTop": "0",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "header": "What Our Fantastic Users Say",
+          "items": [
+            {
+              "authorName": "Blayne B.",
+              "authorBio": "AppLair User",
+              "text": "<i>\"AppLair is better than eating ass, if that doesnt make you want to buy it I dont know what will.\"</i>"
+            },
+            {
+              "authorName": "Ben B.",
+              "authorBio": "AppLair User",
+              "text": "<p><em>\"I take dick in the ass every night.</em></p><p><em>every single fucking night.\"</em></p>"
+            },
+            {
+              "authorName": "Dalton G.",
+              "authorBio": "AppLair User",
+              "text": "<em>\"I literally just want free fucking porn holy shit fuck off with this dumb shit applair sucks ass.\"</em>"
+            }
+          ],
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "_anchor": "testimonials1-1i",
+          "testimonial": [
+            {
+              "authorName": "Blayne B.",
+              "authorBio": "AppLair User",
+              "text": "<i>\"AppLair is better than eating ass, if that doesnt make you want to buy it I dont know what will.\"</i>"
+            },
+            {
+              "authorName": "Ben B.",
+              "authorBio": "AppLair User",
+              "text": "<p><em>\"I take dick in the ass every night.</em></p><p><em>every single fucking night.\"</em></p>"
+            },
+            {
+              "authorName": "Dalton G.",
+              "authorBio": "AppLair User",
+              "text": "<em>\"I literally just want free fucking porn holy shit fuck off with this dumb shit applair sucks ass.\"</em>"
             }
           ]
         },
