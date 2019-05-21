@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "AppLair",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -11,7 +11,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.7",
     "siteFonts": [],
-    "uniqCompNum": 56,
+    "uniqCompNum": 63,
     "versionPublish": "4.9.7",
     "screenshot": "screenshot.png"
   },
@@ -94,7 +94,7 @@
           },
           "title": "AppLair",
           "text": "A members-only app. Absolutley zero revokes. $9.99 USD for 1 year. &nbsp;Scroll down for more info.&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"page4.html#features1-p\" data-toolbar=\"-mbrBtnMove\">Website Only, App Coming Soon.</a> ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info-outline btn-info\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">Buy</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"page4.html#features1-p\" data-toolbar=\"-mbrBtnMove\">Enter AppLair</a> ",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -146,28 +146,6 @@
               "text-align": "center"
             }
           }
-        },
-        {
-          "_params": {
-            "showMeta": true
-          },
-          "title": "How to buy AppLair.",
-          "meta": "Tutorial",
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-s"
-        },
-        {
-          "text": "<p>To buy AppLair, click the \"Buy\" button and buy AppLair through PayPal. You aren't done yet though, you have to send your UDID (Unique Device Identifier) to me through the PayPal buy screen.&nbsp;</p><p>To find your devices UDID, please visit https://get.udid.io on your device and add their certificate. Once you do that, you will recieve your device's UDID.</p>",
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-t"
         },
         {
           "_params": {
@@ -358,7 +336,7 @@
             {
               "authorName": "Ben B.",
               "authorBio": "AppLair User",
-              "text": "<p><em>\"I take dick in the ass every night.</em></p><p><em>every single fucking night.\"</em></p>"
+              "text": "<i>\"my dick gets coburned every night\"</i>"
             },
             {
               "authorName": "Dalton G.",
@@ -410,19 +388,19 @@
           "header": "What Our Fantastic Users Say",
           "items": [
             {
-              "authorName": "ABANOUB S.",
-              "authorBio": "User",
-              "text": "<em>“its really very amazing app that makes me finish html page in 3 minutes ( that's usually takes more than 1 hours at least from me if i did it from scratch). i hope to have very big library and plugins for this APP thanks again for your nice application”</em>"
+              "authorName": "Jackson H.",
+              "authorBio": "AppLair User",
+              "text": "<em>\"anal is a gift from god, like seriously, why is it so god damn good???\"</em>"
             },
             {
-              "authorName": "SUFFIAN A.",
-              "authorBio": "User",
-              "text": "<em>“First of all hands off to you guys for your effort and nice, super tool. Good work mobirise team. We are expecting the new version soon with advance functionality with full bootstrap design. Great effort and super UI experience with easy drag & drop with no time design bootstrap builder in present web design world.”</em>"
+              "authorName": "Julius P.",
+              "authorBio": "AppLair User",
+              "text": "<i>\"my name is the only cool thing about me.\"</i>"
             },
             {
-              "authorName": "JHOLLMAN C.",
-              "authorBio": "User",
-              "text": "<em>“At first view, looks like a nice innovative tool, i like the great focus and time that was given to the responsive design, i also like the simple and clear drag and drop features. Give me more control over the object's properties and ill be using this tool for more serious projects. Regards.”</em>"
+              "authorName": "Anthony S.",
+              "authorBio": "AppLair User",
+              "text": "<i>\"everytime i open applair i queef uncontrollably\"</i>"
             }
           ],
           "alias": "purity/components",
@@ -705,8 +683,8 @@
           "_params": {
             "showTitle": true,
             "showText": false,
-            "showButtons": true,
-            "showArrow": false,
+            "showButtons": false,
+            "showArrow": true,
             "contentAlign": "left",
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/applair-background-2000x2998.jpg",
@@ -721,9 +699,9 @@
             "overlayColor": "#ffffff",
             "overlayOpacity": "0.3"
           },
-          "title": "$9.99 for an entire year. <b>No Revokes.</b>",
+          "title": "$9.99 for an entire year. <b>No Revokes. </b>Tutorial Below.",
           "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">$9.99 PayPal</a>  <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">Enter</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">$9.99 PayPal</a>  ",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -735,6 +713,107 @@
               "color": "#ffffff"
             }
           }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.7
+          },
+          "title": "How to Buy AppLair",
+          "caption": "<p>First, visit <a href=\"https://get.udid.io\" target=\"_blank\">https://get.udid.io</a> to get your device's UDID (Unique Device Identifier) and send your UDID to <a href=\"mailto:applaircontact@gmail.com\">applaircontact@gmail.com</a>, and you will be good to go within an hour. (If your UDID does not show up the first time, try again.)</p>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-1o"
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgColor": "#efefef",
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-605-828x1792.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-605-828x1792-800x1731.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-606-828x1792.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-606-828x1792-800x1731.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-607-828x1792.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-607-828x1792-800x1731.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-608-828x1792.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-608-828x1792-800x1731.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-609-828x1792.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-609-828x1792-800x1731.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-610-828x1792.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-610-828x1792-800x1731.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-611-828x1792.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-611-828x1792-800x1731.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-0612-2-828x1792.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-0612-2-828x1792-800x1731.jpg",
+                "alt": "",
+                "title": "",
+                "active": true
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-1q"
         },
         {
           "_params": {
